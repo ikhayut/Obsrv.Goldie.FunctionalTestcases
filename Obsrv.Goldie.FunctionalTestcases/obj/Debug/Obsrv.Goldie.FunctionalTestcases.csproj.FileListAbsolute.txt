@@ -1,0 +1,17 @@
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\Obsrv.Goldie.FunctionalTestcases.dll.config
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\Obsrv.Goldie.FunctionalTestcases.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\Obsrv.Goldie.FunctionalTestcases.pdb
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\ImpromptuInterface.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\nunit.framework.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\SpecFlow.Assist.Dynamic.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\ImpromptuInterface.xml
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\nunit.framework.xml
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\obj\Debug\Obsrv.Goldie.FunctionalTestcases.csproj.CoreCompileInputs.cache
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\obj\Debug\Obsrv.Goldie.FunctionalTestcases.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\obj\Debug\Obsrv.Goldie.FunctionalTestcases.pdb
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\bin\Debug\NPoco.dll
+C:\Users\ikhayut\source\repos\Obsrv.Goldie.FunctionalTestcases\Obsrv.Goldie.FunctionalTestcases\obj\Debug\Obsrv.Goldie.FunctionalTestcases.csprojResolveAssemblyReference.cache

@@ -11,9 +11,8 @@ Scenario Outline: File upload
 	Then Records with matching <cust_po_no> inserted into Header
 	Examples:
 	| cust_po_no |
-	| 2585990    |
-	| 2585998    |
-	| 2598702    |
+	| 2585991    |
+	| 2585992    |
 
 	@SalesOrder
 Scenario: Header record check
@@ -29,8 +28,9 @@ Scenario Outline: SalesOrder number of items check
 	Then Correct number of <lines> generated for each "<cust_po_no>"
 	Examples:
 	| cust_po_no | lines |
-	| 2585990    | 3    |
-	| 2585998    | 2    |
+	| 2585991    | 1     |
+	| 2585989    | 2     |
+	| 2585993    | 2     |
 	
 
 
@@ -45,10 +45,14 @@ Scenario Outline: Freight value check
 	
 
 	@SalesOrder
-Scenario Outline: Tax rate calculation check
+Scenario Outline: Tax rate
 	When File import was run
-	Then tax rate equals <taxamount>/(<price> * <qty>) for "<cust_po_no>"
+	Then Tax rate equals <taxamount> / <price> * <qty> for "<cust_po_no>" for <itemid>
 	Examples:
-	| taxamount | price  | qty | cust_po_no |
-	| 4.60       | 145.00 | 7   | abde342    |
-	| 2.30       | 12.09  | 1   | rterter    |
+	| taxamount | price  | qty | cust_po_no | itemid |
+	| 4.62  | 150.99 | 7   | 2585989    | 512669 |
+	|
+	
+	
+
+	

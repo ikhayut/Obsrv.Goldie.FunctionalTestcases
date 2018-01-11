@@ -202,11 +202,31 @@ namespace Obsrv.Goldie.FunctionalTestcases
             }
             reader.Close();
         }
-        [Then]
-        public void Then_tax_rate_equals_TAXAMT_PRICE_QTY_for_PO(Decimal taxamt, Decimal price, int qty, string po)
+        [Then(@"Tax rate equals (.*) / (.*) \* (.*) for ""(.*)"" for (.*)")]
+        public void ThenTaxRateEqualsForFor(Decimal taxamount, Decimal price, int qty, string po, int itemid)
         {
-            ScenarioContext.Current.Pending();
+            Decimal tax_rate = taxamount / (price * qty);
+            string connectionString = "DATA SOURCE= fintst; User ID=idt_oasis; Password=idt_oasis_joe1;";
+            connection = new OracleConnection(connectionString);
+            connection.Open();
+           // var a = Math.Round(taxamount,2);
+            OracleCommand command = connection.CreateCommand();
+            string sql = (String.Format("select tax_rate from so_dtl where hdr_id in (select id from so_hdr where cust_po_no ='{0}' and inventory_item_id = {1})", po, itemid));
+            command.CommandText = sql;
+            OracleDataReader reader = command.ExecuteReader();
+            while (reader.Read())
+            {
+                 //var b = Math.Round(Convert.ToDouble(reader["TAX_RATE"]),4);
+                
+                Assert.AreEqual(Math.Round(Convert.ToDouble(reader["TAX_RATE"]), 4),Math.Round(tax_rate,4));
+
+            }
+            reader.Close();
         }
+
+
+
+
 
 
 
